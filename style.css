@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&family=Rampart+One&display=swap");
+
+:root {
+  --primary: #fff23a;
+  --black: black;
+  --background: repeating-linear-gradient(
+    45deg,
+    #f2c94c,
+    #eef12a 10px,
+    #fdd14d 2px,
+    #f2c94c 20px
+  );
+}
+
+body {
+  text-align: center;
+  margin: 0px;
+  font-weight: 600;
+}
+
+nav {
+  background-color: var(--black);
+  background: var(--background);
+}
+
+.heading {
+  font-family: "Rampart One", cursive;
+  color: var(--black);
+  text-shadow: 2px 1px rgb(157, 168, 5);
+  font-size: 3rem;
+  font-weight: 800;
+  padding: 2%;
+}
+
+.centre-div {
+  padding: 3%;
+}
+
+/* texareas */
+textarea {
+  margin: 22px;
+  align-items: center;
+  padding: 22px;
+  border: 2px solid var(--black);
+  font-family: "Inknut Antiqua", serif;
+  overflow: scroll;
+}
+
+/* image */
+img{
+  width: 12%;
+  position: absolute;
+  left: 670px;
+  bottom: 360px;
+}
+
+
+/* button */
+
+button {
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 13px 29px;
+  background-color: var(--primary);
+  border-style: none;
+  margin: 0 2rem;
+  padding: 1rem 2.5rem;
+  font-weight: 600;
+  border: 2px solid var(--black);
+  font-size: 1.6rem;
+  font-family: "Rampart One", cursive;
+}
+
+button:hover {
+  box-shadow: 2px 2px rgb(29, 29, 25);
+}
+
+/* footer */
+footer {
+  padding: 5px 0;
+  background: var(--background);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+p {
+  padding: 5px 0;
+  width: 63%;
+  margin: auto;
+  font-size: 0.9rem;
+  font-family: "Inknut Antiqua", serif;
+}
