@@ -10,7 +10,7 @@ function translationURL(input) {
 }
 
 function handleError(error) {
-    alert("Something went wrong!")
+    console.log("Something went wrong!", error);
 }
 
 function clickEventHandler() {
